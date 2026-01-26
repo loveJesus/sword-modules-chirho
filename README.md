@@ -11,6 +11,28 @@ https://global-tools.bible.systems/feedback-chirho
 
 ---
 
+## What Are These Translations?
+
+These are **reader's version word-for-word glosses** designed to help you read the Bible in its original languages (Hebrew and Greek):
+
+- **Word-for-word**: Each Hebrew/Greek word receives a corresponding gloss in the target language
+- **Original word order**: The glosses follow the order of the original Hebrew/Greek text, not natural target language order
+- **Reader's aid**: Like an interlinear Bible, these help readers understand the original text directly
+
+### Example (John 3:16 in Spanish):
+
+| Greek | Gloss |
+|-------|-------|
+| Οὕτως | Así |
+| γὰρ | pues |
+| ἠγάπησεν | amó |
+| ὁ θεὸς | el Dios |
+| τὸν κόσμον | el mundo |
+
+The translations preserve Greek/Hebrew structure rather than creating natural Spanish/Hindi sentences. This is intentional - they are learning aids to help you engage directly with the original biblical languages.
+
+---
+
 ## Available Modules
 
 | Module | Language | Type | Description |
