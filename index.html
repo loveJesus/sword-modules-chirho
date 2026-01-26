@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Bible Tools SWORD Repository</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .warning h2 {
+            color: #856404;
+            margin-top: 0;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #f8f9fa;
+        }
+        a {
+            color: #0066cc;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔠 Global Bible Tools SWORD Repository</h1>
+
+    <div class="warning">
+        <h2>⚠️ MACHINE TRANSLATED - PROVISIONAL</h2>
+        <p><strong>These are AI-assisted machine translations provided as study aids only.</strong></p>
+        <p>They have NOT been fully reviewed or confirmed by human translators.</p>
+        <p><strong>Do not use these as authoritative texts.</strong></p>
+        <p>📝 <a href="https://global-tools.bible.systems/feedback-chirho">Submit feedback to improve translations</a></p>
+    </div>
+
+    <div class="card">
+        <h2>📚 Available Modules</h2>
+        <table>
+            <tr>
+                <th>Module</th>
+                <th>Language</th>
+                <th>Type</th>
+                <th>Download</th>
+            </tr>
+            <tr>
+                <td><strong>GBTIntSpa</strong></td>
+                <td>Spanish (Español)</td>
+                <td>Interlinear</td>
+                <td><a href="raw/GBTIntSpa.zip">Download (6.8 MB)</a></td>
+            </tr>
+            <tr>
+                <td><strong>GBTIntHin</strong></td>
+                <td>Hindi (हिन्दी)</td>
+                <td>Interlinear</td>
+                <td><a href="raw/GBTIntHin.zip">Download (7.0 MB)</a></td>
+            </tr>
+            <tr>
+                <td><strong>GBTSPA</strong></td>
+                <td>Spanish (Español)</td>
+                <td>Bible</td>
+                <td><a href="raw/GBTSPA.zip">Download (1.3 MB)</a></td>
+            </tr>
+            <tr>
+                <td><strong>HinGBT</strong></td>
+                <td>Hindi (हिन्दी)</td>
+                <td>Bible</td>
+                <td><a href="raw/HinGBT.zip">Download (176 KB)</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>📦 Installation</h2>
+        <h3>Using InstallMgr</h3>
+        <p>Add this repository URL to your SWORD application's module manager:</p>
+        <pre>https://sword-modules-chirho.bible.systems</pre>
+
+        <h3>Manual Installation</h3>
+        <ol>
+            <li>Download the desired module from the table above</li>
+            <li>Extract to your SWORD modules directory:
+                <ul>
+                    <li>Linux/macOS: <code>~/.sword/</code></li>
+                    <li>Windows: <code>C:\Program Files\CrossWire\The SWORD Project\</code></li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div class="card">
+        <h2>🔍 Using Interlinear Modules</h2>
+        <p>The interlinear modules contain embedded translation data:</p>
+        <ul>
+            <li><strong>Glosses</strong>: Target language translations for each Greek/Hebrew word</li>
+            <li><strong>Strong's Numbers</strong>: Hebrew (H) and Greek (G) reference numbers</li>
+            <li><strong>Morphology</strong>: Grammar codes for each word</li>
+        </ul>
+
+        <h3>Command Line (diatheke)</h3>
+        <pre>diatheke -b GBTIntSpa -o gmsn -k "John 3:16"
+
+# Options:
+#   -o g = show glosses (translations)
+#   -o m = show morphology codes
+#   -o s = show Strong's numbers</pre>
+
+        <h3>SWORD Applications</h3>
+        <p>In most SWORD apps (Xiphos, BibleTime, etc.):</p>
+        <ol>
+            <li>Go to Settings/Preferences</li>
+            <li>Enable "Show Glosses" or "Interlinear Mode"</li>
+            <li>Enable "Show Strong's Numbers" and "Show Morphology"</li>
+        </ol>
+    </div>
+
+    <div class="card">
+        <h2>🔗 Repository Files</h2>
+        <ul>
+            <li><a href="mods.d.tar.gz">mods.d.tar.gz</a> - Module configuration files (for InstallMgr)</li>
+            <li><a href="mods.d/">mods.d/</a> - Individual .conf files</li>
+            <li><a href="raw/">raw/</a> - Module zip files</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📜 License</h2>
+        <p>Creative Commons Attribution 4.0 International (CC BY 4.0)</p>
+        <p>
+            <a href="https://global-tools.bible.systems">Main Site</a> |
+            <a href="https://global-tools.bible.systems/feedback-chirho">Feedback</a> |
+            <a href="https://github.com/loveJesus">GitHub</a>
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>"For God so loved the world, that He gave His only begotten Son,<br>
+        that all who believe in Him should not perish but have everlasting life."<br>
+        — John 3:16</p>
+    </div>
+</body>
+</html>
