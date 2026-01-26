@@ -1,118 +1,37 @@
-# Global Bible Tools SWORD Repository
+# Installing HinGBT SWORD Module
 
-**⚠️ MACHINE TRANSLATED - PROVISIONAL - NOT AUTHORITATIVE ⚠️**
-
-These are AI-assisted machine translations provided as **study aids only**.
-They have NOT been fully reviewed or confirmed by human translators.
-**Do not use these as authoritative texts.**
-
-We welcome feedback to improve these translations:
-https://global-tools.bible.systems/feedback-chirho
-
----
-
-## What Are These Translations?
-
-These are **reader's version word-for-word glosses** designed to help you read the Bible in its original languages (Hebrew and Greek):
-
-- **Word-for-word**: Each Hebrew/Greek word receives a corresponding gloss in the target language
-- **Original word order**: The glosses follow the order of the original Hebrew/Greek text, not natural target language order
-- **Reader's aid**: Like an interlinear Bible, these help readers understand the original text directly
-
-### Example (John 3:16 in Spanish):
-
-| Greek | Gloss |
-|-------|-------|
-| Οὕτως | Así |
-| γὰρ | pues |
-| ἠγάπησεν | amó |
-| ὁ θεὸς | el Dios |
-| τὸν κόσμον | el mundo |
-
-The translations preserve Greek/Hebrew structure rather than creating natural Spanish/Hindi sentences. This is intentional - they are learning aids to help you engage directly with the original biblical languages.
-
----
-
-## Available Modules
-
-| Module | Language | Type | Description |
-|--------|----------|------|-------------|
-| GBTIntSpa | Spanish | Interlinear | Greek/Hebrew with Spanish glosses, Strong's, morphology |
-| GBTIntHin | Hindi | Interlinear | Greek/Hebrew with Hindi glosses, Strong's, morphology |
-| GBTSPA | Spanish | Bible | Word-for-word Spanish translation |
-| HinGBT | Hindi | Bible | Word-for-word Hindi translation |
+## Module Information
+- **Name:** HinGBT
+- **Language:** हिन्दी (Hindi)
+- **Books:** 66
+- **Verses:** 2598
+- **License:** CC BY-SA 4.0
 
 ## Installation
 
-### Using InstallMgr (recommended)
+### For Xiphos (Linux/Windows/macOS)
+1. Copy `mods.d/hingbt.conf` to your SWORD mods.d directory:
+   - Linux: `~/.sword/mods.d/`
+   - macOS: `~/Library/Application Support/Sword/mods.d/`
+   - Windows: `%APPDATA%\Sword\mods.d\`
 
-Add this repository URL to your SWORD application's module manager:
-```
-https://sword-modules-chirho.bible.systems
-```
+2. Copy the `modules/texts/ztext/hingbt/` directory to your SWORD modules directory:
+   - Linux: `~/.sword/modules/texts/ztext/`
+   - macOS: `~/Library/Application Support/Sword/modules/texts/ztext/`
+   - Windows: `%APPDATA%\Sword\modules\texts\ztext\`
 
-### Manual Installation
+3. Restart Xiphos and the module should appear.
 
-1. Download the desired module from the `raw/` directory
-2. Extract to your SWORD modules directory:
-   - Linux: `~/.sword/`
-   - macOS: `~/.sword/` or `/usr/share/sword/`
-   - Windows: `C:\Program Files\CrossWire\The SWORD Project\`
+### For BibleTime
+Same as above, BibleTime uses the same SWORD module locations.
 
-## Using Interlinear Modules
+### For AndBible (Android)
+1. Create a ZIP file containing the module structure
+2. Import via AndBible's module manager
 
-The interlinear modules (GBTIntSpa, GBTIntHin) contain:
-- **Glosses**: Target language translations embedded in each word
-- **Strong's Numbers**: Hebrew (H) and Greek (G) reference numbers
-- **Morphology**: Grammar codes for each word
-
-### Command Line (diatheke)
-
-```bash
-# Show interlinear with glosses, morphology, and Strong's
-diatheke -b GBTIntSpa -o gmsn -k "John 3:16"
-
-# Options:
-#   -o g = show glosses (translations)
-#   -o m = show morphology codes
-#   -o s = show Strong's numbers
-#   -o n = show footnotes
-```
-
-### SWORD Applications
-
-In most SWORD apps (Xiphos, BibleTime, etc.):
-1. Go to Settings/Preferences
-2. Enable "Show Glosses" or "Interlinear Mode"
-3. Enable "Show Strong's Numbers" and "Show Morphology"
-
-## Repository Structure
-
-```
-/
-├── mods.d.tar.gz      # Module configuration files (for InstallMgr)
-├── mods.d/            # Individual .conf files
-│   ├── gbtintspa.conf
-│   ├── gbtinthin.conf
-│   ├── gbtspa.conf
-│   └── hingbt.conf
-└── raw/               # Module zip files
-    ├── GBTIntSpa.zip
-    ├── GBTIntHin.zip
-    ├── GBTSPA.zip
-    └── HinGBT.zip
-```
+## Source
+Generated from https://global-tools.bible.systems
 
 ## License
-
-Creative Commons Attribution 4.0 International (CC BY 4.0)
-
-## Links
-
-- Main Site: https://global-tools.bible.systems
-- Feedback: https://global-tools.bible.systems/feedback-chirho
-- Source: https://github.com/loveJesus
-
----
-
-*"For God so loved the world, that He gave His only begotten Son, that all who believe in Him should not perish but have everlasting life." — John 3:16*
+This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+You are free to share and adapt this work with appropriate attribution.
