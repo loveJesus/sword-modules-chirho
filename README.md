@@ -8,8 +8,8 @@ Machine Translation Interlinear Bible modules for SWORD applications.
 |---|---|---:|---:|---:|
 | `LJMTIntAmhChirho` | amh | 1.1 | 31,102 | 445,524 |
 | `LJMTIntArbChirho` | arb | 1.1 | 31,102 | 447,701 |
-| `LJMTIntBenChirho` | ben | 1.1 | 31,102 | 446,627 |
-| `LJMTIntBenRChirho` | ben | 1.0 | 31,102 | 437,129 |
+| `LJMTIntBenChirho` | ben | 1.2 | 31,102 | 446,639 |
+| `LJMTIntBenRChirho` | ben | 1.1 | 31,102 | 438,434 |
 | `LJMTIntDeuChirho` | deu | 1.1 | 31,102 | 447,829 |
 | `LJMTIntEngChirho` | eng | 1.2 | 31,102 | 447,481 |
 | `LJMTIntFraChirho` | fra | 1.1 | 31,102 | 448,077 |
@@ -19,7 +19,7 @@ Machine Translation Interlinear Bible modules for SWORD applications.
 | `LJMTIntIndChirho` | ind | 1.1 | 31,102 | 447,670 |
 | `LJMTIntItaChirho` | ita | 1.1 | 31,102 | 448,109 |
 | `LJMTIntJavChirho` | jav | 1.1 | 31,102 | 446,795 |
-| `LJMTIntJpnRChirho` | jpn | 1.0 | 31,102 | 440,657 |
+| `LJMTIntJpnRChirho` | jpn | 1.1 | 31,102 | 441,924 |
 | `LJMTIntKorChirho` | kor | 1.1 | 31,102 | 446,993 |
 | `LJMTIntMyaChirho` | mya | 1.1 | 31,102 | 444,933 |
 | `LJMTIntNepRChirho` | nep | 1.1 | 31,101 | 433,049 |
@@ -36,9 +36,9 @@ Machine Translation Interlinear Bible modules for SWORD applications.
 | `LJMTIntVieRChirho` | vie | 1.1 | 31,102 | 441,264 |
 | `LJMTIntZhoChirho` | zho | 1.1 | 31,102 | 447,509 |
 
-25 editions were rebuilt from the complete translation database (state of 28 October 2026). Each rebuilt edition carries every source word, including parenthesized readings and words without a gloss. Words without a non-empty database gloss have no gloss attribute.
+27 editions were rebuilt from the complete translation database (state of 28 October 2026). Each rebuilt edition carries every source word, including parenthesized readings and words without a gloss. Words without a non-empty database gloss have no gloss attribute.
 
-`LJMTIntHinChirho` remains exactly as previously published: the local backup contains only a small Hindi terse sample. These editions also remain at their previous published versions because a rebuild gate stopped them: `LJMTIntBenRChirho`, `LJMTIntJpnRChirho`, `LJMTIntSrpChirho`. Counts describe coverage, not translation quality; some database glosses are source-word placeholders or paragraph markers.
+`LJMTIntHinChirho` remains exactly as previously published: the local backup contains only a small Hindi terse sample. `LJMTIntSrpChirho` retains its published Latin-script edition. Counts describe coverage, not translation quality; some database glosses are source-word placeholders or paragraph markers.
 
 ## Warning
 
