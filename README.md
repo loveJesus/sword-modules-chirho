@@ -4,12 +4,41 @@ Machine Translation Interlinear Bible modules for SWORD applications.
 
 ## Available Modules
 
-| Module | Language | Description |
-|--------|----------|-------------|
-| **LJMTIntSpa** | Spanish (Español) | Machine Translation Interlinear |
-| **LJMTIntHin** | Hindi (हिन्दी) | Machine Translation Interlinear |
-| **LJMTIntBen** | Bengali (বাংলা) | Machine Translation Interlinear |
-| **LJMTIntPor** | Portuguese (Português) | Machine Translation Interlinear |
+| Module | Language | Version | Verses with a gloss | Glossed words |
+|---|---|---:|---:|---:|
+| `LJMTIntAmhChirho` | amh | 1.1 | 31,102 | 445,524 |
+| `LJMTIntArbChirho` | arb | 1.1 | 31,102 | 447,701 |
+| `LJMTIntBenChirho` | ben | 1.1 | 31,102 | 446,627 |
+| `LJMTIntBenRChirho` | ben | 1.0 | 31,102 | 437,129 |
+| `LJMTIntDeuChirho` | deu | 1.1 | 31,102 | 447,829 |
+| `LJMTIntEngChirho` | eng | 1.2 | 31,102 | 447,481 |
+| `LJMTIntFraChirho` | fra | 1.1 | 31,102 | 448,077 |
+| `LJMTIntHebChirho` | heb | 1.1 | 31,102 | 446,579 |
+| `LJMTIntHinChirho` | hin | 1.0 | 31,101 | 441,895 |
+| `LJMTIntHinRChirho` | hin | 1.1 | 31,101 | 443,096 |
+| `LJMTIntIndChirho` | ind | 1.1 | 31,102 | 447,670 |
+| `LJMTIntItaChirho` | ita | 1.1 | 31,102 | 448,109 |
+| `LJMTIntJavChirho` | jav | 1.1 | 31,102 | 446,795 |
+| `LJMTIntJpnRChirho` | jpn | 1.0 | 31,102 | 440,657 |
+| `LJMTIntKorChirho` | kor | 1.1 | 31,102 | 446,993 |
+| `LJMTIntMyaChirho` | mya | 1.1 | 31,102 | 444,933 |
+| `LJMTIntNepRChirho` | nep | 1.1 | 31,101 | 433,049 |
+| `LJMTIntPorChirho` | por | 1.1 | 31,102 | 448,061 |
+| `LJMTIntRusChirho` | rus | 1.1 | 31,102 | 445,922 |
+| `LJMTIntSpaChirho` | spa | 1.1 | 31,102 | 448,040 |
+| `LJMTIntSrpChirho` | srp | 1.0 | 31,101 | 428,177 |
+| `LJMTIntSwaChirho` | swa | 1.2 | 31,102 | 447,594 |
+| `LJMTIntTamChirho` | tam | 1.1 | 31,102 | 445,622 |
+| `LJMTIntTelRChirho` | tel | 1.1 | 31,101 | 441,296 |
+| `LJMTIntTurChirho` | tur | 1.2 | 31,102 | 446,759 |
+| `LJMTIntUkrRChirho` | ukr | 1.1 | 31,101 | 428,564 |
+| `LJMTIntUrdChirho` | urd | 1.1 | 31,101 | 446,638 |
+| `LJMTIntVieRChirho` | vie | 1.1 | 31,102 | 441,264 |
+| `LJMTIntZhoChirho` | zho | 1.1 | 31,102 | 447,509 |
+
+25 editions were rebuilt from the complete translation database (state of 28 October 2026). Each rebuilt edition carries every source word, including parenthesized readings and words without a gloss. Words without a non-empty database gloss have no gloss attribute.
+
+`LJMTIntHinChirho` remains exactly as previously published: the local backup contains only a small Hindi terse sample. These editions also remain at their previous published versions because a rebuild gate stopped them: `LJMTIntBenRChirho`, `LJMTIntJpnRChirho`, `LJMTIntSrpChirho`. Counts describe coverage, not translation quality; some database glosses are source-word placeholders or paragraph markers.
 
 ## Warning
 
